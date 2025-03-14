@@ -12,7 +12,7 @@ classdef tModel1 < matlab.unittest.TestCase
         % Test methods
 
         function unimplementedTest(testCase)
-            open_system("model1_24b");
+            open_system("model1");
             testCase.verifyTrue(true,"Unimplemented test");
         end
     end

@@ -18,7 +18,7 @@ classdef tSltest < simulinktest.TestCase
 
         function unimplementedTest(testCase)
             % Check SIL vs sim answers
-            testCase.model = 'model1_24b';
+            testCase.model = 'model1';
             testCase.loadSystem(testCase.model);
             normResults = testCase.simulate(testCase.model, 'SimulationMode', ...
                 'normal', 'InFolder', testCase.workingDir);
